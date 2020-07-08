@@ -1,7 +1,10 @@
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-/*======================NAV============*/
+/*======================NAVBAR============*/
 #bg-color{
     background-color: #F0FFF0;
 }
@@ -33,6 +36,12 @@ h1{
     line-height: 70px;
     color: #000;
 }
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 54px;
+    color: #000;
+}
 #header h1 span{
     color: #21B573;
 }
@@ -49,13 +58,12 @@ p{
 .row{
     padding: 50px;
 }
-/*======================card============*/
+/*======================BOOKS============*/
 #books{
     margin-top: 50px;
 }
 #books .card{
     border: none;
-   
     background-color: #F8FFFB;
     border-radius: 10px;
 }
@@ -92,7 +100,7 @@ p{
     width: 20px;
     height: 20px;
 }
-/*======================testimonial============*/
+/*======================TESTIMONIAL============*/
 #testimonial img{
     height: 120px;
     width: 120px;
@@ -116,31 +124,38 @@ h2.text-center {
 #testimonial p{
     margin-left: 5%;
 }
-/*======================OTHERS============*/
-#others{
-    height: 300px;
-    background-color: #F0FFF0;
-    border-radius: 10px;
+/*======================CAROUSEL-SLIDE============*/
+#carousel-slide h2{
+    margin-bottom: 30px;
+    padding-top: 35px;
+
 }
-#others h3{
-    font-size: 20px;
-    font-weight: 700;
+#carousel-slide img{
+    height: 500px;
 }
-#others h6{
-    color: gray;
+/*======================FORM============*/
+form{
+    margin-top: 50px;
 }
-.form-control {
-    margin-bottom: 5px;
+.form-element{
+    padding: 60px 0px;
+}
+.form-row{
+    margin-top: 30px;
 }
 /*======================FOOTER============*/
 footer{
     background-color: #282531;
 }
+
 footer ul{
     font-style: none;
 }
 footer p, li{
     color: #fff;
+}
+footer p{
+    margin-bottom: 0px;
 }
 footer ul li{
     list-style: none;
@@ -177,6 +192,12 @@ footer li{
     #testimonial img {
         margin-left: 12%;
     }
+    form {
+        padding: 0px 10px;
+    }
+    ul {
+        margin-top: 25px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .d-flex.justify-content-around {
@@ -185,4 +206,5 @@ footer li{
     .button-design {
         padding: 8px 15px;
     }
+   
 }
